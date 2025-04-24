@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hello, world</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        .media-container {
+            display: flex;
+            gap: 20px;
+            max-width: 90vw;
+            max-height: 60vh;
+            align-items: center;
+            justify-content: center;
+        }
+
+        video,
+        img {
+            max-height: 100%;
+            max-width: 45vw;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            object-fit: contain;
+        }
+
+        video {
+            background-color: #000;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Nguyễn Phúc Vinh - ITITIU21350</h1>
+    <h1>Thái Thành Phát - ITITIU21274</h1>
+
+    <div class="media-container">
+        <video src="./assets/video.mp4" controls></video>
+        <img src="./assets/img.jpg" alt="Demo Image">
+    </div>
+</body>
+
+</html>
